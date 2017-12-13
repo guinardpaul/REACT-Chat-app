@@ -1,0 +1,39 @@
+{
+    "name": "react-chat-app",
+    "version": "1.0.0",
+    "description": "Chat application using node.js, express, socket.io, React.js",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/guinardpaul/REACT-Chat-app.git"
+    },
+    "keywords": [
+        "Chat",
+        "React.js",
+        "node.js",
+        "express",
+        "socket.io"
+    ],
+    "author": "Paul GUINARD",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/guinardpaul/REACT-Chat-app/issues"
+    },
+    "homepage": "https://github.com/guinardpaul/REACT-Chat-app#readme",
+    "dependencies": {
+        "express": "4.16.2",
+        "socket.io": "2.0.4",
+        "body-parser": "1.18.2",
+        "cors": "2.8.4",
+        "debug": "3.1.0",
+        "morgan": "1.9.0",
+        "serve-favicon": "2.4.5"
+    },
+    "devDependencies": {
+        "nodemon": "*",
+        "concurrently": "*"
+    }
+}
